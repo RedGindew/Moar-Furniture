@@ -1,0 +1,15 @@
+MoarFurniture.BASICApronSinkDown
+loc 0 0 32 21
+piv 17 10
+
+MoarFurniture.BASICApronSinkRight
+loc 0 21 32 21
+piv 15 31
+
+MoarFurniture.BASICApronSinkLeft
+loc 0 42 32 21
+piv 15 53
+
+MoarFurniture.BASICApronSinkUp
+loc 0 63 32 21
+piv 17 74

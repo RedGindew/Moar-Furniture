@@ -1,0 +1,144 @@
+{
+    "BuildMode": {
+        "MoarFurniture.TALMDiningTable": "Simply Dining Table",
+        "MoarFurniture.TALMBedsideTable": "Simply Bedside Table",
+        "MoarFurniture.TALMBedsideDrawers": "Simply Bedside Drawers",
+        "MoarFurniture.TALMLargeDrawers": "Simply Large Drawers",
+        "MoarFurniture.TALMBookcase": "Bookish Bookshelf",
+        "MoarFurniture.TALMSmallBookcase": "Slightly Bookish Bookshelf",
+        "MoarFurniture.BASICChair": "The Perfectly Bland Seat",
+
+        "MoarFurniture.BASICPatternedRug": "The Unreasonably Large Rug",
+        "MoarFurniture.BASICPatternedRugColors0": "Base",
+        "MoarFurniture.BASICPatternedRugColors1": "Accent",
+
+        "MoarFurniture.BASICSmallerRug": "The Reasonably Average Rug",
+        "MoarFurniture.BASICSmallerRugColors0": "Base",
+        "MoarFurniture.BASICSmallerRugColors1": "Accent",
+
+        "MoarFurniture.BASICDoorMat": "Hello World Welcome Mat",
+        "MoarFurniture.BASICDoorMatColors0": "Base",
+        "MoarFurniture.BASICDoorMatColors1": "Accent",
+
+        "MoarFurniture.BASICLoveSeat": "The Lovely Love Seat",
+        "MoarFurniture.COTTAGEMeshRug": "Fluffy Pile Rug",
+        "MoarFurniture.BASICFrame": "Not One, But Two Frames",
+        "MoarFurniture.BASICTrioFrame": "Best Of Three Frames",
+        "MoarFurniture.BASICPersonFrame": "The Silouette",
+        "MoarFurniture.MAWSMoviePoster": "MAWS Movie Poster",
+        "MoarFurniture.OJGamePoster": "OJ Game Poster",
+        "MoarFurniture.OJ2GamePoster": "OJ 2 Game Poster",
+        "MoarFurniture.OJ3GamePoster": "OJ 3 Game Poster",
+        "MoarFurniture.OJ4GamePoster": "OJ 4 Game Poster",
+        "MoarFurniture.PlanetWarsPoster": "Planet Wars Movie Poster",
+
+        "MoarFurniture.BASICBuiltInOven": "The Slightly Built-In Oven",
+        "MoarFurniture.BASICBuiltInOvenColors0": "Front",
+
+        "MoarFurniture.BASICFridge": "The Budget Approved Fridge",
+        "MoarFurniture.BASICApronSink": "Remember Your Apron Sink",
+        "MoarFurniture.SHARPFridge": "The Luxuriously Large Fridge",
+        "MoarFurniture.SHARPKitchenSink": "The Perfectly Angled Kitchen Sink",
+        "MoarFurniture.SHARPOven": "The Standalone Oven",
+        "MoarFurniture.SHARPOvenColors0": "Appliance",
+        "MoarFurniture.SHARPOvenColors1": "Top Grill",
+
+        "MoarFurniture.SHARPGlassCounters": "Glass Counters",
+        "MoarFurniture.SHARPGlassCountersColors0": "Base",
+        "MoarFurniture.SHARPGlassCountersColors1": "Top",
+        "MoarFurniture.BASICCounter": "Simply Basic Counter",
+        "MoarFurniture.BASICCounterColors0": "Base",
+        "MoarFurniture.BASICCounterColors1": "Top",
+
+        "MoarFurniture.BASICShower": "Simply Shower",
+        "MoarFurniture.BASICBathroomSink": "Simply Bathroom Sink",
+        "MoarFurniture.BASICToilet": "Simply Toilet",
+
+        "MoarFurniture.BASICBathroomCounter": "Simply Bathroom Counter",
+        "MoarFurniture.BASICBathroomCounterColors0": "Base",
+        "MoarFurniture.BASICBathroomCounterColors1": "Top",
+
+        "MoarFurniture.CAFECoffeeMachine": "Tinispresso Coffee Machine",
+
+        "MoarFurniture.CAFECoffeeDecor": "Tinispresso Coffee Decor",
+        "MoarFurniture.CAFECoffeeDecorColors0": "Left Mug",
+        "MoarFurniture.CAFECoffeeDecorColors1": "Right Mug",
+
+        "MoarFurniture.CAFEHangingMenuBoard": "Hanging Menu Board",
+        "MoarFurniture.CAFEHangingMenuBoardColors1": "Frame",
+
+        "MoarFurniture.FABPlainWallPaper": "Plain Wallpaper",
+        "MoarFurniture.FABMidBorderedWallPaper": "Mid-Bordered Wallpaper",
+        "MoarFurniture.FABRibbonWallPaper": "Ribbon Wallpaper",
+        "MoarFurniture.SeasonalTreeWallpaper": "Seasonal Trees Wallpaper",
+        "MoarFurniture.FABWallPanelling": "Smooth as Wood Panelling",
+        
+        "MoarFurniture.BasicCarpet": "Soooo Basic Carpet",
+
+        "MoarFurniture.BASICMailbox": "Simply Mailbox",
+        "MoarFurniture.BASICMailboxColors0": "Mail Box",
+        "MoarFurniture.BASICMailboxColors1": "Stand",
+        "MoarFurniture.BASICMailboxColors2": "Flag",
+
+        "MoarFurniture.SimpleVase": "Simple Vase",
+        "MoarFurniture.LilStorageJars": "The Little Jars",
+
+        "MoarFurniture.CornerCabinet": "The Retro Cabinet",
+        "MoarFurniture.CornerCabinetColors0": "Top",
+        "MoarFurniture.CornerCabinetColors1": "Base",
+
+        "MoarFurniture.WorkingWardrobe": "The Working Wardrobe",
+        "MoarFurniture.WorkingWardrobeColors0": "Clothing 0",
+        "MoarFurniture.WorkingWardrobeColors1": "Clothing 1",
+        "MoarFurniture.WorkingWardrobeColors2": "Clothing 2",
+        "MoarFurniture.WorkingWardrobeColors3": "Clothing 3",
+        "MoarFurniture.WorkingWardrobeColors4": "Frame",
+
+        "MoarFurniture.RetroTable": "Diner Table",
+        "MoarFurniture.RetroTableColors0": "Stand",
+        "MoarFurniture.RetroTableColors1": "Top",
+
+        "MoarFurniture.RetroStool": "Diner Stool",
+        "MoarFurniture.RetroStoolColors0": "Stand",
+        "MoarFurniture.RetroStoolColors1": "Top",
+
+        "MoarFurniture.RetroSauceSet": "Diner Condiments Set",
+
+        "MoarFurniture.DecorCabinet": "The Glass Cabinet",
+        "MoarFurniture.GameCollection": "Video Game Collection",
+        "MoarFurniture.PodRack": "Tinispresso Pod Rack",
+
+        "MoarFurniture.CerealClutter": "Cereal Boxes",
+        "MoarFurniture.CerealClutterColors0": "Cereal Box 1",
+        "MoarFurniture.CerealClutterColors1": "Cereal Box 2",
+        "MoarFurniture.CerealClutterColors2": "Cereal Box 3",
+
+        "MoarFurniture.PlainPouf": "The Pouffe of Sitting",
+
+        "MoarFurniture.SmallPottedPlant": "Potted Plant",
+        "MoarFurniture.SmallPottedPlantColors0": "Pot",
+        "MoarFurniture.SmallPottedPlantColors1": "Bush",
+        "MoarFurniture.SmallPottedPlantColors2": "Flowers",
+
+        "MoarFurniture.BookStack": "Finish Later Book Stack",
+        "MoarFurniture.BookStackColors1": "Book 0",
+        "MoarFurniture.BookStackColors2": "Book 1",
+        "MoarFurniture.BookStackColors3": "Book 2",
+
+        "MoarFurniture.ThinPillar": "Pillar Thin",
+        "MoarFurniture.ThickPillar": "Pillar thicc",
+        "MoarFurniture.ClassicalPillar": "Pillar Classical",
+        "MoarFurniture.BudgetOven": "Hand-me-down Oven",
+        "MoarFurniture.SimpleDesk": "Simple Desk",
+
+        "MoarFurniture.PalmTree": "Palm Tree",
+        "MoarFurniture.PalmTreeColors0": "Wood",
+        "MoarFurniture.PalmTreeColors1": "Palm Leaves",
+
+        "MoarFurniture.SimpleRock": "Lil Rock",
+
+        "MoarFurniture.ShelvingUnit": "The Industrial-Standard Bookshelf",
+        "MoarFurniture.ShelvingUnitColors0": "Metal Frame",
+        "MoarFurniture.ShelvingUnitColors1": "Wood"
+    }
+}
