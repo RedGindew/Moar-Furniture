@@ -31,9 +31,9 @@ public class MoarFurniture : Mod
 
     // visual data about this mod
     public override string Name => "Moar Furniture";
-    public override string Description => "More of each furniture! - v1.5";
+    public override string Description => "More of each furniture!";
     public override string IssueTrackerUrl => "https://x.com/RedGindew";
-    public override string TestedVersionRange => "[0.45.2]";
+    public override string TestedVersionRange => "[0.46.0]";
     private Dictionary<Point, TextureRegion> uiTextures, openings, wallpaperTextures, tiles;
     public override TextureRegion Icon => this.uiTextures[new Point(0, 0)];
 
@@ -45,7 +45,7 @@ public class MoarFurniture : Mod
         texturePacker.Add(new UniformTextureAtlas(content.Load<Texture2D>("Openings"), 8, 10), r => this.openings = r, 1, true);
         texturePacker.Add(new UniformTextureAtlas(content.Load<Texture2D>("UITex"), 8, 8), r => this.uiTextures = r, 1, true);
         texturePacker.Add(new UniformTextureAtlas(content.Load<Texture2D>("Tiles"), 8, 8), r => this.tiles = r, 1, true);
-        WallMode.ApplyMasks(content.Load<Texture2D>("Wallpapers"), 4, 10, texturePacker, r => this.wallpaperTextures = r);
+        texturePacker.Add(WallMode.ApplyMasks(content.Load<Texture2D>("Wallpapers"), 4, 10), r => this.wallpaperTextures = r, 1, true, true);
     }
 
     public override void AddGameContent(GameImpl game, ModInfo info)
@@ -126,7 +126,6 @@ public class MoarFurniture : Mod
             Colors = new ColorSettings(ColorScheme.Pastel, ColorScheme.White){ Defaults = new int[] { 4, 0 } },
             DefaultRotation = MLEM.Maths.Direction2.Right,
             ElectricityRating = 2,
-            Reliability = 5,
             WaterRating = 1
         });
         // KITCHEN Set
@@ -136,7 +135,6 @@ public class MoarFurniture : Mod
             Tab = (FurnitureTool.Tab.Kitchen),
             Colors = new ColorSettings(ColorScheme.Pastel){ Defaults = new int[] { 13 } },
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Reliability = 5,
             ElectricityRating = 2
         });
         FurnitureType.Register(new FurnitureType.TypeSettings("MoarFurniture.SHARPOven", new Point(1, 1), ObjectCategory.Stove | ObjectCategory.Oven, 600)
@@ -147,7 +145,6 @@ public class MoarFurniture : Mod
             Colors = new ColorSettings(ColorScheme.Pastel, ColorScheme.Pastel, ColorScheme.White){ Defaults = new int[] { 18, 18, 0 }, PreviewName = "MoarFurniture.SHARPOven" },
             ObjectSpots = ObjectSpot.CounterSpots(true),
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Reliability = 5,
             ElectricityRating = 2
         });
         FurnitureType.Register(new FurnitureType.TypeSettings("MoarFurniture.BASICBuiltInOven", new Point(1, 1), ObjectCategory.Stove | ObjectCategory.DisallowedOnGround | ObjectCategory.Oven | ObjectCategory.CounterObject, 800)
@@ -158,7 +155,6 @@ public class MoarFurniture : Mod
             ObjectSpots = ObjectSpot.CounterSpots(true),
             DefaultRotation = MLEM.Maths.Direction2.Right,
             Colors = new ColorSettings(ColorScheme.Pastel, ColorScheme.White){ Defaults = new int[] { 18, 0 }, PreviewName = "MoarFurniture.BASICBuiltInOven" },
-            Reliability = 5,
             ElectricityRating = 2
         });
         FurnitureType.Register(new FurnitureType.TypeSettings("MoarFurniture.SHARPKitchenSink", new Point(1, 1), ObjectCategory.CounterObject | ObjectCategory.Sink, 250)
@@ -166,7 +162,6 @@ public class MoarFurniture : Mod
             Icon = this.Icon,
             Tab = (FurnitureTool.Tab.Kitchen),
             Colors = new ColorSettings(ColorScheme.Pastel){ Defaults = new int[] { 13 } },
-            Reliability = 5,
             ActionSpots = new[] { new ActionSpot(Vector2.Zero, MLEM.Maths.Direction2.Up) },
             ObjectSpots = ObjectSpot.CounterSpots(true),
             DefaultRotation = MLEM.Maths.Direction2.Right,
@@ -196,7 +191,6 @@ public class MoarFurniture : Mod
             Tab = (FurnitureTool.Tab.Kitchen),
             Colors = new ColorSettings(ColorScheme.Pastel){Defaults = new int[] { 13 }},
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Reliability = 2,
             ElectricityRating = 2
         });
         FurnitureType.Register(new FurnitureType.TypeSettings("MoarFurniture.BASICApronSink", new Point(1, 1), ObjectCategory.CounterObject| ObjectCategory.DisallowedOnGround | ObjectCategory.Sink, 350)
@@ -207,7 +201,6 @@ public class MoarFurniture : Mod
             ActionSpots = new[] { new ActionSpot(Vector2.Zero, MLEM.Maths.Direction2.Up) },
             ObjectSpots = ObjectSpot.CounterSpots(true),
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Reliability = 2,
             WaterRating = 2
         });
         // MOVIE / GAME Posters
@@ -301,7 +294,6 @@ public class MoarFurniture : Mod
                     DrawLayer = f => 0
                     }
                 },
-            Reliability = 5,
             ElectricityRating = 2,
             WaterRating = 2
         });
@@ -314,7 +306,6 @@ public class MoarFurniture : Mod
             ActionSpots = new[] { new ActionSpot(Vector2.Zero, MLEM.Maths.Direction2.Up) },
             ObjectSpots = ObjectSpot.CounterSpots(true),
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Reliability = 5,
             WaterRating = 2
         });
         FurnitureType.Register(new FurnitureType.TypeSettings("MoarFurniture.BASICToilet", new Point(1, 1), ObjectCategory.WallHanging | ObjectCategory.Toilet, 250)
@@ -328,7 +319,6 @@ public class MoarFurniture : Mod
                     }
                 },
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Reliability = 5,
             WaterRating = 2
         });
         FurnitureType.Register(new FurnitureType.TypeSettings("MoarFurniture.BASICBathroomCounter", new Point(1, 1), ObjectCategory.Counter, 40)
@@ -532,7 +522,6 @@ public class MoarFurniture : Mod
             //Colors = new int[] { 13, 0 },
             ObjectSpots = ObjectSpot.CounterSpots(true),
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Reliability = 2,
             ElectricityRating = 2
         });
         Wallpaper.Register("MoarFurniture.FABPlainWallPaper", 20, this.wallpaperTextures, new Point(0, 0), new ColorScheme[] { ColorScheme.Modern, ColorScheme.SimpleWood }, this.Icon, new int[] { 10, 8 });

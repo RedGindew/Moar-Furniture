@@ -300,3 +300,4 @@ C:\Users\redgi\Desktop\Tiny Life Modding\Misc. Mods\MoarFurniture\obj\Release\ne
 C:\Users\redgi\Desktop\Tiny Life Modding\Misc. Mods\MoarFurniture\obj\Release\net8.0\refint\MoarFurniture.dll
 C:\Users\redgi\Desktop\Tiny Life Modding\Misc. Mods\MoarFurniture\obj\Release\net8.0\MoarFurniture.pdb
 C:\Users\redgi\Desktop\Tiny Life Modding\Misc. Mods\MoarFurniture\obj\Release\net8.0\ref\MoarFurniture.dll
+C:\Users\redgi\Desktop\Tiny Life Modding\Misc. Mods\MoarFurniture\obj\Release\net8.0\MoarFurniture.sourcelink.json
