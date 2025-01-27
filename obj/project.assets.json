@@ -313,7 +313,7 @@
           }
         }
       },
-      "TinyLife.ApiReference/0.46.0": {
+      "TinyLife.ApiReference/0.46.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/Tiny Life.dll": {
@@ -828,17 +828,17 @@
         "textcopy.nuspec"
       ]
     },
-    "TinyLife.ApiReference/0.46.0": {
-      "sha512": "KFvTaXj1OCWlChvhC5hZqOiJ/C1UQzGxeZfjdF9UiVwh+2hztfDnWqCfaIKQU3TH332f4FWnCtHT3FbO3Rtg+A==",
+    "TinyLife.ApiReference/0.46.1": {
+      "sha512": "nP/ou3M+FrQG+y1/dVG8oDRSOmN4lST/SRY/1A0z6gvUuDH115zF+OGW2zmQu7jtCABbrVsxfErAs0jTgP75gQ==",
       "type": "package",
-      "path": "tinylife.apireference/0.46.0",
+      "path": "tinylife.apireference/0.46.1",
       "files": [
         ".nupkg.metadata",
         "Icon.png",
         "README.md",
         "lib/net8.0/Tiny Life.dll",
         "lib/net8.0/Tiny Life.xml",
-        "tinylife.apireference.0.46.0.nupkg.sha512",
+        "tinylife.apireference.0.46.1.nupkg.sha512",
         "tinylife.apireference.nuspec"
       ]
     }
@@ -854,7 +854,7 @@
       "MLEM.Startup >= 7.1.1",
       "MonoGame.Framework.DesktopGL >= 3.8.2.1105",
       "Newtonsoft.Json >= 13.0.3",
-      "TinyLife.ApiReference >= 0.46.0"
+      "TinyLife.ApiReference >= 0.46.1"
     ]
   },
   "packageFolders": {
@@ -862,7 +862,7 @@
     "C:\\Users\\redgi\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\MoarFurniture.csproj",
       "projectName": "MoarFurniture",
@@ -946,7 +946,7 @@
           },
           "TinyLife.ApiReference": {
             "target": "Package",
-            "version": "[0.46.0, )"
+            "version": "[0.46.1, )"
           }
         },
         "imports": [
@@ -965,7 +965,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

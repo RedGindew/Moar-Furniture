@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\MoarFurniture.csproj": {
-      "version": "1.6.0",
+      "version": "1.7.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\MoarFurniture.csproj",
         "projectName": "MoarFurniture",
@@ -89,7 +89,7 @@
             },
             "TinyLife.ApiReference": {
               "target": "Package",
-              "version": "[0.46.0, )"
+              "version": "[0.46.1, )"
             }
           },
           "imports": [
@@ -108,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

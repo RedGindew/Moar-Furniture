@@ -31,9 +31,9 @@ public class MoarFurniture : Mod
 
     // visual data about this mod
     public override string Name => "Moar Furniture";
-    public override string Description => "More of each furniture!";
+    public override string Description => "More of each furniture! By Gindew!";
     public override string IssueTrackerUrl => "https://x.com/RedGindew";
-    public override string TestedVersionRange => "[0.46.0]";
+    public override string TestedVersionRange => "[0.46.0,0.46.1]";
     private Dictionary<Point, TextureRegion> uiTextures, openings, wallpaperTextures, tiles;
     public override TextureRegion Icon => this.uiTextures[new Point(0, 0)];
 
