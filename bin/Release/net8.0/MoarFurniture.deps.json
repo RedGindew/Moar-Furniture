@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "MoarFurniture/1.6": {
+      "MoarFurniture/1.8": {
         "dependencies": {
           "Coroutine": "2.1.5",
           "DynamicEnums": "2.0.0",
@@ -17,7 +17,7 @@
           "MLEM.Startup": "7.1.1",
           "MonoGame.Framework.DesktopGL": "3.8.2.1105",
           "Newtonsoft.Json": "13.0.3",
-          "TinyLife.ApiReference": "0.46.0"
+          "TinyLife.ApiReference": "0.47.0"
         },
         "runtime": {
           "MoarFurniture.dll": {}
@@ -213,18 +213,18 @@
           }
         }
       },
-      "TinyLife.ApiReference/0.46.0": {
+      "TinyLife.ApiReference/0.47.0": {
         "runtime": {
           "lib/net8.0/Tiny Life.dll": {
-            "assemblyVersion": "0.46.0.0",
-            "fileVersion": "0.46.0.0"
+            "assemblyVersion": "0.47.0.0",
+            "fileVersion": "0.47.0.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "MoarFurniture/1.6": {
+    "MoarFurniture/1.8": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -362,12 +362,12 @@
       "path": "textcopy/6.2.0",
       "hashPath": "textcopy.6.2.0.nupkg.sha512"
     },
-    "TinyLife.ApiReference/0.46.0": {
+    "TinyLife.ApiReference/0.47.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KFvTaXj1OCWlChvhC5hZqOiJ/C1UQzGxeZfjdF9UiVwh+2hztfDnWqCfaIKQU3TH332f4FWnCtHT3FbO3Rtg+A==",
-      "path": "tinylife.apireference/0.46.0",
-      "hashPath": "tinylife.apireference.0.46.0.nupkg.sha512"
+      "sha512": "sha512-OxzzQ9lWKNqTBw7YvllA+R3yJAAMJAZXyMbKkJ6OkLefN0R4/WzzO3NXcjGqsv+lW5jpWXz6UjIP14Rjzmg/Tw==",
+      "path": "tinylife.apireference/0.47.0",
+      "hashPath": "tinylife.apireference.0.47.0.nupkg.sha512"
     }
   }
 }

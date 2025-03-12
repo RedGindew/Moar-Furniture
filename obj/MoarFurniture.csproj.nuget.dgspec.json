@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\MoarFurniture.csproj": {
-      "version": "1.7.0",
+      "version": "1.8.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\MoarFurniture.csproj",
         "projectName": "MoarFurniture",
@@ -14,12 +14,14 @@
         "outputPath": "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Users\\redgi\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+          "C:\\Users\\redgi\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\NuGet.Config",
           "C:\\Users\\redgi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Users\\redgi\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -89,7 +92,7 @@
             },
             "TinyLife.ApiReference": {
               "target": "Package",
-              "version": "[0.46.1, )"
+              "version": "[0.47.0, )"
             }
           },
           "imports": [
@@ -108,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

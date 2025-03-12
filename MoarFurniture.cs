@@ -33,7 +33,7 @@ public class MoarFurniture : Mod
     public override string Name => "Moar Furniture";
     public override string Description => "More of each furniture! By Gindew!";
     public override string IssueTrackerUrl => "https://x.com/RedGindew";
-    public override string TestedVersionRange => "[0.46.0,0.46.1]";
+    public override string TestedVersionRange => "[0.47.0]";
     private Dictionary<Point, TextureRegion> uiTextures, openings, wallpaperTextures, tiles;
     public override TextureRegion Icon => this.uiTextures[new Point(0, 0)];
 
@@ -173,7 +173,7 @@ public class MoarFurniture : Mod
             Tab = (FurnitureTool.Tab.Kitchen),
             DefaultRotation = MLEM.Maths.Direction2.Right,
             ConstructedType = typeof(CornerFurniture.Counter),
-            Colors = new ColorSettings(ColorScheme.SimpleWood, ColorScheme.SimpleWood, ColorScheme.White) { Defaults = new int[] { 1, 0, 0 }, PreviewName = "MoarFurniture.SHARPGlassCounters" },
+            Colors = new ColorSettings(ColorScheme.SimpleWood, ColorScheme.SimpleWood, ColorScheme.White) { Defaults = new int[] { 9, 3, 0 }, PreviewName = "MoarFurniture.SHARPGlassCounters" },
             ObjectSpots = ObjectSpot.CounterSpots(false).ToArray()
         });
         FurnitureType.Register(new FurnitureType.TypeSettings("MoarFurniture.BASICCounter", new Point(1, 1), ObjectCategory.Counter, 60)
@@ -181,7 +181,7 @@ public class MoarFurniture : Mod
             Icon = this.Icon,
             Tab = (FurnitureTool.Tab.Kitchen),
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Colors = new ColorSettings(ColorScheme.SimpleWood, ColorScheme.SimpleWood){Defaults = new int[] { 1, 0 }, PreviewName = "MoarFurniture.BASICCounter" },
+            Colors = new ColorSettings(ColorScheme.SimpleWood, ColorScheme.SimpleWood){Defaults = new int[] { 9, 3 }, PreviewName = "MoarFurniture.BASICCounter" },
             ConstructedType = typeof(CornerFurniture.Counter),
             ObjectSpots = ObjectSpot.CounterSpots(false).ToArray()
         });
@@ -326,7 +326,7 @@ public class MoarFurniture : Mod
             Icon = this.Icon,
             Tab = (FurnitureTool.Tab.Bathroom),
             DefaultRotation = MLEM.Maths.Direction2.Right,
-            Colors = new ColorSettings(ColorScheme.SimpleWood, ColorScheme.SimpleWood){Defaults = new int[] { 1, 2 }, PreviewName = "MoarFurniture.BASICBathroomCounter"},
+            Colors = new ColorSettings(ColorScheme.SimpleWood, ColorScheme.SimpleWood){Defaults = new int[] { 9, 3 }, PreviewName = "MoarFurniture.BASICBathroomCounter"},
             ConstructedType = typeof(CornerFurniture.Counter),
             ObjectSpots = ObjectSpot.CounterSpots(false).ToArray()
         });

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oWsxNDjkoSI=",
+  "dgSpecHash": "5ms8QX6ILWg=",
   "success": true,
   "projectFilePath": "C:\\Users\\redgi\\Desktop\\Tiny Life Modding\\Misc. Mods\\MoarFurniture\\MoarFurniture.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,7 @@
     "C:\\Users\\redgi\\.nuget\\packages\\system.text.json\\8.0.1\\system.text.json.8.0.1.nupkg.sha512",
     "C:\\Users\\redgi\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\redgi\\.nuget\\packages\\textcopy\\6.2.0\\textcopy.6.2.0.nupkg.sha512",
-    "C:\\Users\\redgi\\.nuget\\packages\\tinylife.apireference\\0.46.1\\tinylife.apireference.0.46.1.nupkg.sha512"
+    "C:\\Users\\redgi\\.nuget\\packages\\tinylife.apireference\\0.47.0\\tinylife.apireference.0.47.0.nupkg.sha512"
   ],
   "logs": []
 }
