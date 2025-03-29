@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoarFurniture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.8.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.8+edab72e09c794b05d90c7ce9c727ed77d66235f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.8+2ee988f2b93d17571f362f7e759004309eaaa13b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoarFurniture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoarFurniture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.8.0.0")]
